@@ -1,0 +1,23 @@
+main {
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 100%
+}
+
+.restaurant-name {
+    border: 1px solid black;
+    height: 100px;
+    width: 30%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.about {
+    border: 1px solid black;
+    height: 300px;
+    width: 55%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
