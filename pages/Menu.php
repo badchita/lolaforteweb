@@ -20,11 +20,18 @@
             </h1>
         </div>
 
+        <div class="tag">
+            <h2>
+                What's Hot?!
+            </h2>
+        </div>
+
         <div class="menu1">
             <div class="description-menu">
                 <h3>Eggplant Omelet (Tortang Talong) ₱55</h3>
                 <h5>Torta is “omelet” and talong is “eggplant,” but this Filipino dish is more like an egg-battered
-                    cutlet eaten for breakfast or </h5>
+                    cutlet eaten for breakfast or lunch.
+                </h5>
             </div>
         </div>
 

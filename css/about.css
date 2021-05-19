@@ -41,4 +41,17 @@ main {
     line-height: 2;
     padding-left: 6px;
     padding-right: 6px;
+    animation: drop 1.5s ease;
+}
+
+@keyframes drop {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }

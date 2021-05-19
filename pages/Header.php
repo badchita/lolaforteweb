@@ -10,13 +10,13 @@ session_start();
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lola Forte's Restaurant</title>
+    <title>Lola's Forte Restaurant</title>
 </head>
 
 <body>
     <header id="myHeader">
         <div class="logo">
-            <img src="img/logo.png" style="margin: 0 auto; width: 100px; height:100px;">
+            <img src="img/logo.png" style="margin: 0 auto; width: 120px; height:120px;">
         </div>
         <nav>
             <ul class="nav-links">
