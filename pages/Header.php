@@ -5,6 +5,7 @@ session_start();
 <html>
 
 <head>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/anaktoria-textfonts" type="text/css" />
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +14,10 @@ session_start();
 </head>
 
 <body>
-    <header>
-        <div class="logo">Logo</div>
+    <header id="myHeader">
+        <div class="logo">
+            <img src="img/logo.png" style="margin: 0 auto; width: 100px; height:100px;">
+        </div>
         <nav>
             <ul class="nav-links">
                 <li class="nav-link"><a href="./">HOME</a></li>

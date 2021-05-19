@@ -1,0 +1,12 @@
+footer {
+    margin: auto;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+td {
+    margin: auto;
+}
