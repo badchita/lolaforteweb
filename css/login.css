@@ -1,0 +1,62 @@
+* {
+    font-family: "Roboto",
+        sans-serif;
+}
+
+.container-box {
+    background: #f58027;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.login-text {
+    color: #000000;
+    margin: auto;
+    font-size: 60px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+input[type=text],
+[type=password] {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    width: 90%;
+    margin-left: 20px;
+    height: 35px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    font-family: "Karla", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    font-size: 13px;
+    font-weight: 400;
+    height: auto;
+    line-height: 30px;
+    padding: 9px 30px;
+    border-radius: 0;
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #000000;
+    color: #f58027;
+}
+
+label {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.7em;
+    color: #000000;
+    margin-left: 20px
+}

@@ -1,23 +1,27 @@
 <?php
 switch(@$_GET['p']) {
 	case "menu":
-		include("controllers/menu.php");
+		include("menu.php");
 		$a->index();	
 		break;
     case "new-dishes":
-		include("controllers/new-dishes.php");
+		include("new-dishes.php");
 		$a->index();	
 		break;
     case "about":
-		include("controllers/about.php");
+		include("about.php");
 		$a->index();	
 		break;
     case "branches":
-		include("controllers/branches.php");
+		include("branches.php");
+		$a->index();	
+		break;
+	case "home":
+		include("home.php");
 		$a->index();	
 		break;
 	default:
-		include("controllers/home.php");
+		include("login.php");
 		$a->index();
 		break;
 }
